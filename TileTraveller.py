@@ -1,5 +1,19 @@
-user = 11
+# 1) Það var auðveldara að nota functions þar sem maður þurfti ekki að skrifa það sama
+#    aftur og aftur. Ég náði að helminga kóðann minn með því að bæta bara inn 2 functionum.
+#    sérstaklega með movement() functioninu. options() var meira notað til að hafa forritið 
+#    stílhreinna.
+# 2) Klárlega auðveldara að lesa seinna versionið. Bæði útaf functionunum og fáeinum breytingum
+#    sem ég gerði. Í staðin fyrir að hafa einhverja langloku fyrir hvern og einn reit, þá get
+#    ég útskýrt hvern og einn reit með variables og unnið út frá því á sama hátt fyrir alla
+#    reiti. Aðal ástæðan er þó sú að maður er ekki endalaust að lesa hér um bil sama texta.
+# 3) Ég gat búið til function sem ákvarðaði hreyfinguna á notandanum miðað við þann reit sem
+#    hann er í nú þegar. Einnig bjó ég til print function sem er nú hálf tilgangslaus en vegna
+#    þess að við erum að æfa okkur í functions fannst mér viðeigandi að bæta því við.
+#    Hefði vilja búa til function sem gat ákvarðað hvaða Tile væri um að ræða án þess að nota
+#    Endalaust af if setningum. En ég fann ekki leið til þess. Allavega ekki leið sem við
+#    eigum að vera búinn að læra.
 
+user = 11
 
 T = "You can travel: "
 N = "(N)orth"
@@ -32,7 +46,7 @@ def movement(tilenr):
                 return 10
             elif user_input == "S":
                 return -1
-            else:
+            else: #"West"
                 return -10
         else:
             print("Not a valid direction!")
