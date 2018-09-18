@@ -9,6 +9,8 @@
 # Svo loks þegar einstaklingur hefur komist í reit 3.1 þá brýt ég aðal while lykkjuna og tilkynni
 # notanda að hann hafi unnið!
 
+# https://github.com/Sveinbjorn10/TileTraveller
+
 user = 1.1
 
 North = "nN"
