@@ -13,6 +13,8 @@
 #    Endalaust af if setningum. En ég fann ekki leið til þess. Allavega ekki leið sem við
 #    eigum að vera búinn að læra.
 
+#    https://github.com/Sveinbjorn10/TileTraveller
+
 user = 11
 
 T = "You can travel: "
