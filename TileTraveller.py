@@ -17,23 +17,14 @@
 
 user = 11
 
-T = "You can travel: "
-N = "(N)orth"
-E = "(E)ast"
-S = "(S)outh"
-W = "(W)est"
-OR = " or "
-P = "."
-
-Tile11 = T + N + P
-Tile12 = T + N + OR + E + OR + S + P
-Tile13 = T + E + OR + S + P
-Tile21 = T + N + P
-Tile22 = T + S + OR + W + P
-Tile23 = T + E + OR + W + P
-Tile31 = T
-Tile32 = T + N + OR + S + P
-Tile33 = T + S + OR + W + P
+Tile11 = "You can travel: (N)orth."
+Tile12 = "You can travel: (N)orth or (E)ast or (S)outh."
+Tile13 = "You can travel: (E)ast or (S)outh."
+Tile21 = "You can travel: (N)orth."
+Tile22 = "You can travel: (S)outh or (W)est."
+Tile23 = "You can travel: (E)ast or (W)est."
+Tile32 = "You can travel: (N)orth or (S)outh."
+Tile33 = "You can travel: (S)outh or (W)est."
 
 def options(tilenr):
     print(tilenr)
